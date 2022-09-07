@@ -1,0 +1,41 @@
+    1  apt update
+    2  apt upgrade
+    3  apt install python3
+    4  add-apt-repository
+    5  apt install software-properties-common
+    6  apt upgrade
+    7  apt update
+    8  apt-cache madison tesseract-ocr
+    9  add-apt-repository ppa:alex-p/tesseract-ocr5
+   10  apt update
+   11  apt-cache madison tesseract-ocr
+   12  apt install tesseract-ocr=5.2.0-1ppa1~jammy1
+   13  ls
+   14  cd /home/
+   15  ls
+   16  mkdir test_tesseract
+   17  cd test_tesseract/
+   18  ls
+   19  git clone https://github.com/tesseract-ocr/test.git
+   20  apt install git
+   21  git clone https://github.com/tesseract-ocr/test.git
+   22  cd test/testing/
+   23  ls
+   24  tesseract 12.tif output --psm 6
+   25  cat output.txt 
+   26  tesseract 12.tif stdout --psm 12
+   27  tesseract 12.tif stdout --psm 1
+   28* 
+   29  tesseract 12.tif stdout --psm 6
+   30  ls
+   31  cd ..
+   32  ls
+   33  git clone https://github.com/ramonapariciog/imagen_test_tesseract.git
+   34  ls
+   35  cd imagen_test_tesseract/
+   36  ls
+   37  tesseract is.tif stdout --psm 6
+   38  ls
+   39  tesseract is.tiff stdout --psm 6
+   40  history
+   41  history > historial.txt
