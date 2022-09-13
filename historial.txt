@@ -25,17 +25,265 @@
    25  cat output.txt 
    26  tesseract 12.tif stdout --psm 12
    27  tesseract 12.tif stdout --psm 1
-   28* 
-   29  tesseract 12.tif stdout --psm 6
-   30  ls
-   31  cd ..
-   32  ls
-   33  git clone https://github.com/ramonapariciog/imagen_test_tesseract.git
-   34  ls
-   35  cd imagen_test_tesseract/
-   36  ls
-   37  tesseract is.tif stdout --psm 6
-   38  ls
-   39  tesseract is.tiff stdout --psm 6
-   40  history
-   41  history > historial.txt
+   28  tesseract 12.tif stdout --psm 6
+   29  ls
+   30  cd ..
+   31  ls
+   32  git clone https://github.com/ramonapariciog/imagen_test_tesseract.git
+   33  ls
+   34  cd imagen_test_tesseract/
+   35  ls
+   36  tesseract is.tif stdout --psm 6
+   37  ls
+   38  tesseract is.tiff stdout --psm 6
+   39  history
+   40  history > historial.txt
+   41  ls
+   42  cd ..
+   43  apt install ffmpeg libsm6 libxext6 python3-pip
+   44  history
+   45  cd test_tesseract/test/
+   46  ls
+   47  cd imagen_test_tesseract/
+   48  ls
+   49  git add -A
+   50  git commit -m "historial docker"
+   51  git config --global user.email "moncho_apa@hotmail.com"
+   52  git config --global user.name "ramonapariciog"
+   53  git commit -m "historial docker"
+   54  git push origin master
+   55  git push origin main
+   56  exit
+   57  history
+   58  exit
+   59  apt install ffmpeg libsm6 libxext6 python3-pip
+   60  exit
+   61  ls
+   62  cd /home/
+   63  ls
+   64  history
+   65  apt install ffmpeg libsm6 libxext6 python3-pip
+   66  apt update
+   67  apt upgrade
+   68  apt install ffmpeg libsm6 libxext6 python3-pip
+   69  pip3-freeze
+   70  pip3 freeze
+   71  ls
+   72  cd test_tesseract/
+   73  ls
+   74  cd test
+   75  ls
+   76  cd testdata
+   77  ls
+   78  cd ..
+   79  cd testing/
+   80  ls
+   81  tesseract 12.tif stdout --psm 6
+   82  tesseract 12.tif stdout -psm 6
+   83  cd ..
+   84  ls
+   85  cd  ..
+   86  ls
+   87  cd test_tesseract/
+   88  ls
+   89  cd test/
+   90  ls
+   91  cd imagen_test_tesseract/
+   92  ls
+   93  tesseract is.tiff stdout --psm 6
+   94  ls
+   95  git status
+   96  ls
+   97  git pull origin main
+   98  git status
+   99  ls
+  100  RUN pip install --upgrade pip
+  101  pip3 install --upgrade pip
+  102  pip3 -version
+  103  pip3 --version
+  104  tesseract is.tiff stdout --psm 6
+  105  pip3 install -r requerimientos.txt
+  106  pip freeze
+  107  pip install sklearn-contrib-py-earth
+  108  python
+  109  python3
+  110  pip3 install git+https://github.com/scikit-learn-contrib/py-earth@v0.2dev
+  111  python
+  112  python3
+  113  ls
+  114  cd ..
+  115  ls
+  116  cd ..
+  117  ls
+  118  git clone git://github.com/scikit-learn-contrib/py-earth.git
+  119  ls
+  120  pip install sklearn-contrib-py-earth
+  121  ls
+  122  git clone git://github.com/scikit-learn-contrib/py-earth.git
+  123  ls
+  124  pip install sklearn-contrib-py-earth
+  125  pip3 install - upgrade wheel
+  126  pip3 install -upgrade wheel
+  127  pip3 install -U wheel
+  128  pip3 install -U setuptools
+  129  pip install sklearn-contrib-py-earth
+  130  pip3 install git+https://github.com/scikit-learn-contrib/py-earth@v0.2dev
+  131  pip install sklearn-contrib-py-earth
+  132  pip3 install git+https://github.com/scikit-learn-contrib/py-earth@v0.2dev
+  133  python
+  134  python3
+  135  ls
+  136  git clone git://github.com/scikit-learn-contrib/py-earth.git
+  137  git clone https://github.com/scikit-learn-contrib/py-earth.git
+  138  cd py-earth/
+  139  ls
+  140  python3 setup.py install --cythonize
+  141  python3 setup.py build_ext -i -f
+  142  pip3 install --global-option build --global-option --force .
+  143  python3 setup.py build_ext --inplace -force
+  144  python3 setup.py install --cythonize
+  145  pip3 freeze | grep cython
+  146  pip install Cython
+  147  python3 setup.py install --cythonize
+  148  ls
+  149  cd ..
+  150  ls
+  151  rm -r py-earth
+  152  ls
+  153  pip3 install git+https://github.com/scikit-learn-contrib/py-earth@v0.2dev
+  154  pip freeze
+  155  exit
+  156  apt-get install python3.8-dev python3.8-venv
+  157  apt-cache madison python
+  158  apt-cache madison python3
+  159  add-apt-repository ppa:deadsnakes/ppa
+  160  apt-get update
+  161  apt-cache madison python3
+  162  apt-get install python3.8-dev python3.8-venv
+  163  which python3.8
+  164  cd 
+  165  ls
+  166  pwd
+  167  cd /home/
+  168  ls
+  169  cd 
+  170  ls
+  171  mkdir virtual_env
+  172  /usr/bin/python3.8 -m venv ~/virtual_env/venv_with_python3.8
+  173  source ~/virtual_env/venv_with_python3.7/bin/activate
+  174  source ~/virtual_env/venv_with_python3.8/bin/activate
+  175  python --version
+  176  pip freeze
+  177  pip --version
+  178  cd ..
+  179  cd /home/test_tesseract/
+  180  ls
+  181  cd ..
+  182  ls
+  183  cd test_tesseract/
+  184  ls
+  185  cd test/
+  186  ls
+  187  cd imagen_test_tesseract/
+  188  ls
+  189  cat requerimientos.txt 
+  190  ls
+  191  pip install -r requerimientos.txt
+  192  pip install sklearn-contrib-py-earth
+  193  pip install git+https://github.com/scikit-learn-contrib/py-earth@v0.2dev
+  194  python
+  195  deactivate
+  196  /usr/bin/python3.8 -c "print("Hola")"
+  197  /usr/bin/python3.8 -c "import pyearth; print('Hola')"
+  198  /usr/bin/python3.8 -c "print('Hola')"
+  199  ls
+  200  nano prueba_python.py
+  201  df -h
+  202  which python3.9
+  203  which python3.8
+  204  /usr/bin/python3.8
+  205  python3.8 
+  206  python3.8 -c "import pyearth"
+  207  python3.8
+  208  cd ~
+  209  ls
+  210  cd virtual_env/venv_with_python3.8/bin/python3.8
+  211  virtual_env/venv_with_python3.8/bin/python3.8
+  212  virtual_env/venv_with_python3.8/bin/python3.8 -c "import pyearth"
+  213  ls
+  214  cd /home/
+  215  ls
+  216  exit
+  217  /home/
+  218  cd /home
+  219  ls
+  220  mkdir SIVA
+  221  exit
+  222  cd /home/SIVA/
+  223  ls
+  224  cd indiceSIVA/
+  225  ls
+  226  cat run_server.sh 
+  227  cat prueba.py 
+  228  cat app.ini 
+  229  cat main.py 
+  230  ls
+  231  cd ..
+  232  ls
+  233  ~/virtual_env/venv_with_python3.8/bin/python
+  234  realpath ~/virtual_env/venv_with_python3.8/bin/python
+  235  realpath ~/virtual_env/venv_with_python3.8/bin
+  236  realpath ~/virtual_env/venv_with_python3.8/bin/python
+  237  ~/virtual_env/venv_with_python3.8/bin/python
+  238  ls
+  239  rm -r indiceSIVA
+  240  exit
+  241  ls
+  242  cd /home/
+  243  ls
+  244  cd SIVA/
+  245  ls
+  246  exit
+  247  cd /home/SIVA/
+  248  ls
+  249  cd indiceSIVA/
+  250  ls
+  251  sh run_server.sh 
+  252  head main.py 
+  253  pip install nano
+  254  apt install nano
+  255  nano main.py 
+  256  chmod +x main.py
+  257  ./main.py 
+  258  nano main.py 
+  259  sh run_server.sh 
+  260  source ~/virtual_env/venv_with_python3.8/bin/activate
+  261  sh run_server.sh 
+  262  ls
+  263  cat Registro_50F1.py 
+  264  python Registro_50F1.py -i "../Main-Photos/nivel10_50F137.png" -d "50F1"
+  265  python Registro_50F1.py -i "../Main-Photos/nivel10_50F138.png" -d "50F1"
+  266  python Registro_50F1.py -i "../Main-Photos/nivel10_50F139.png" -d "50F1"
+  267  nano app.ini 
+  268  sh run_server.sh 
+  269  ls
+  270  cd ..
+  271  ls
+  272  rm -r Main-Photos indiceSIVA
+  273  ls
+  274  cd..
+  275  cd ..
+  276  ls
+  277  exit
+  278  python
+  279  python3
+  280  pip uninstall numpy scikit-learn matplotlib keras
+  281  pip freeze
+  282  pip uninstall pandas
+  283  python3
+  284  cd /home/test_tesseract/test/imagen_test_tesseract/
+  285  ls
+  286  history
+  287  ls
+  288  rm historial.txt
+  289  history > historial.txt
