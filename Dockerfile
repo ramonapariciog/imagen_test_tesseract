@@ -10,6 +10,12 @@ RUN apt-get update -qq && \
     libxext6 \
     python3-pip
 
+## Para desinstalar versiones anteriores
+# sudo apt list --installed | grep tesseract
+# sudo apt purge tesseract-ocr
+# sudo apt purge libtesseract4
+## ------------------------------------------
+
 RUN add-apt-repository ppa:alex-p/tesseract-ocr5
 RUN add-apt-repository ppa:deadsnakes/ppa
 RUN apt-get update -qq && \
